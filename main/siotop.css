@@ -1,0 +1,115 @@
+/* Style général */
+#bloc-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#bloc-menu {
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    padding-left: 85vh;
+    background-color: #333;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+/* Style du formulaire de sélection */
+#nav form {
+    margin-bottom: 20px;
+}
+
+/* Style des rangées */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Style des colonnes */
+.col {
+    flex: 0 0 calc(25% - 20px);
+    margin: 0 10px;
+}
+
+/* Style des vignettes de produit */
+.vignette {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.vignette img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.designation {
+    font-weight: bold;
+}
+
+.prix {
+    color: green;
+    font-size: 1.2em;
+}
+
+/* Style du pied de page */
+.piedPage {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50%;
+    background-color: #333;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    margin-left: -100px;
+}
+.piedPage p{
+    color: #cccccc;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Style de la liste des magasins */
+.magasin-list {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style des magasins */
+.magasin {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 50vh;
+}
